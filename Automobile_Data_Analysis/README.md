@@ -19,7 +19,7 @@ Using an Automobile Dataset from Kaggle, this analysis focuses on data cleaning,
 - Formated Data Types e.g Converted numerical columns to number data types
 - Added a custom column which i did not later use (price levels)
 
-![Image](https://github.com/user-attachments/assets/d47d8b16-b348-4cd3-ada4-1d4bef6c42ed)
+<img width="1918" height="887" alt="Image" src="https://github.com/user-attachments/assets/2ed28c83-780b-408e-96e6-6a32fae7f21f" />
 
 ---
 
@@ -29,18 +29,18 @@ Using an Automobile Dataset from Kaggle, this analysis focuses on data cleaning,
 - Scatter plots to visualize city vs highway MPG relationships
 - Determined the fastest car, most expensive car, and least safeest cast.
 
-<img width="1918" height="887" alt="Image" src="https://github.com/user-attachments/assets/2ed28c83-780b-408e-96e6-6a32fae7f21f" />
-
 ---
 
 ## 📊 Dashboard Visuals
 The final Excel dashboard includes:
 - 🚗 Scatter Plot: Price vs Engine 
-- 🏭 Clustered Bar Chart: City vs Highway MPG (with R² trendline)
+- 🏭 Clustered Bar Chart: City vs Highway MPG
 - Combo Chart: Prices vd HorsePower with respectc to the body-type
 - 🛡️ Safety Ranking Chart: Cars with lowest symboling scores
 - Simple slicer (car make)
 - KPI Cards: Average Price for each car wrt to the slicer, count and safety.
+
+![Image](https://github.com/user-attachments/assets/d47d8b16-b348-4cd3-ada4-1d4bef6c42ed)
 
 ---
 
@@ -82,3 +82,4 @@ Olusegun Japhet Abiola
 I did not capture a lot of information from this data. Feel free to perform your own analysis and send to my mail. 
 
 I would appreciate any and all feedbacks.
+
