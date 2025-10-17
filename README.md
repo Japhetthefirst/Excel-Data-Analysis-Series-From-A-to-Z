@@ -46,7 +46,8 @@ By the end of this series, I aim to:
 ## 👨‍💻 Author
 Olusegun Japhet
 📍 Data Enthusiast | Excel Analyst | Lifelong Learner
-Follow/Connect with me on Linkedin👇
+
+Follow/Connect with me on Linkedin👇:
 🔗 LinkedIn: www.linkedin.com/in/japhetolusegunabiola
 
 ---
