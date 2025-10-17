@@ -19,6 +19,8 @@ Using an Automobile Dataset from Kaggle, this analysis focuses on data cleaning,
 - Formated Data Types e.g Converted numerical columns to number data types
 - Added a custom column which i did not later use (price levels)
 
+![Image](https://github.com/user-attachments/assets/d47d8b16-b348-4cd3-ada4-1d4bef6c42ed)
+
 ---
 
 ## 📈 Analysis Performed
@@ -26,6 +28,8 @@ Using an Automobile Dataset from Kaggle, this analysis focuses on data cleaning,
 - Pivot table analysis to identify trends by make, body-style, and fuel-type (this part took alot of my time because i really do not know anything about automobiles)
 - Scatter plots to visualize city vs highway MPG relationships
 - Determined the fastest car, most expensive car, and least safeest cast.
+
+<img width="1918" height="887" alt="Image" src="https://github.com/user-attachments/assets/2ed28c83-780b-408e-96e6-6a32fae7f21f" />
 
 ---
 
@@ -76,4 +80,5 @@ Olusegun Japhet Abiola
 🔗 www.linkedin.com/in/japhetolusegunabiola
 
 I did not capture a lot of information from this data. Feel free to perform your own analysis and send to my mail. 
+
 I would appreciate any and all feedbacks.
