@@ -1,0 +1,6 @@
+Statement of the Problem:
+Despite timely delivery being a key indicator of customer satisfaction and operational efficiency, many logistics and delivery companies struggle to consistently meet expected delivery times. Delays often arise from hidden bottlenecks such as specific routes, regions, or time periods, which remain unnoticed without proper data analysis. This study seeks to analyze delivery time distribution using Excel tools in order to identify performance bottlenecks, understand the factors contributing to delays, and provide data-driven insights for improving overall delivery efficiency.
+
+
+
+

@@ -1,0 +1,4 @@
+6371 * Number.Acos(
+  (Number.Cos((90 - [Store_Latitude]) * (Number.PI / 180)) * Number.Cos((90 - [Drop_Latitude]) * (Number.PI / 180))) +
+  (Number.Sin((90 - [Store_Latitude]) * (Number.PI / 180)) * Number.Sin((90 - [Drop_Latitude]) * (Number.PI / 180)) * Number.Cos(([Store_Longitude] - [Drop_Longitude]) * (Number.PI / 180)))
+)
