@@ -37,7 +37,7 @@ The final Excel dashboard includes:
 - Line chart: How does weather affect delivery time?, How does area of drop affect delivery time?
 - KPI Cards: Order Count, Average Delivery Time, Average Rating, and Average Distance(km).
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/1aecc932-5925-4421-bff1-c345cf4caf76" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/997814c7-ec63-4a37-a06d-3be497d1aba3" />
 
 ---
 
@@ -79,4 +79,5 @@ Olusegun Japhet Abiola
 🔗 www.linkedin.com/in/japhetolusegunabiola
 
 Feel free to perform your own analysis and critic my work.
+
 I would appreciate any and all feedbacks.
