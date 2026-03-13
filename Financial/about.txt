@@ -1,0 +1,52 @@
+Detailed data description of Credit Risk dataset:
+
+Feature Name			Description
+person_age			Age
+person_income			Annual Income
+person_home_ownership		Home ownership
+person_emp_length		Employment length (in years)
+loan_intent			Loan intent
+loan_grade			Loan grade
+loan_amnt			Loan amount
+loan_int_rate			Interest rate
+loan_status			Loan status (0 is non default 1 is default)	
+loan_percent_income		Percent income
+cb_person_default_on_file	Historical default	
+cb_preson_cred_hist_length	Credit history length
+
+
+🎯 Project Title
+Financial Risk Modeling: Predicting Loan Default Risk
+
+
+🧠 Core Problem Statement
+Financial institutions must decide which loan applicants are likely to repay and which may default. Approving high-risk borrowers increases losses, while rejecting low-risk borrowers reduces potential profit. This project aims to analyze borrower financial data to:
+1. Identify key drivers of loan default.
+2. Develop a simple risk scoring framework.
+3. Classify applicants into Low, Medium, and High Risk categories.
+4. Support data-driven loan approval decisions.
+5. Simulate how financial changes (income, loan size, interest rate) impact risk exposure.
+
+
+#### Project Execution
+=> 🔥 Most Predictive Features (Typically)
+In many credit datasets, the strongest drivers tend to be:
+1. loan_percent_income - if the loan makes up a large percentage of the income
+2. loan_grade - 
+3. loan_int_rate - if the interest rate is very high, that is very bad!
+4. cb_person_default_on_file - if there is a default record!
+5. person_income - if the income is very low
+6. person_emp_length - if the individual has a short employement length
+
+=> Heatmap for feature selection
+
+=> Risk scoring framework: 
+   Person_income: low income → High Risk, loan_int_rate: high interest rate → High Risk, loan_percent_income: high percent income → High Risk,    cb_person_default_on_file: Default  → High Risk, loan_grade: Lower grades → High Risk
+
+=> For the quantitative values:
+   Use percentile distribuion for the scoring systems:
+   - 0.25 - lower 25%
+   - 0.50 - median
+   - 0.75 - upper 25%
+
+=> Sum of risk values ranging from 5 to 15, use percentile scoring also!;
