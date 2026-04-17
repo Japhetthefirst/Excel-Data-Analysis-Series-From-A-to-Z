@@ -1,4 +1,4 @@
-# 🅱️ F for Financial — Loan-Risk Analysis
+# F for Financial — Loan-Risk Analysis
 
 ## 🏦 Overview
 
