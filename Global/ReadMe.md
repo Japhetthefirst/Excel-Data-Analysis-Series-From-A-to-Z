@@ -41,6 +41,10 @@ The final Power BI dashboard includes three reporting layers:
 - Inventory Health: Total SKU count and average discount rates across the product catalog.
 - Profitability Matrix: Comparison of "Strongest Products" versus "Weakest Products" to identify margin-draining items.
 
+<img width="1240" height="689" alt="Image" src="https://github.com/user-attachments/assets/3fbdb4e4-2eed-4d62-9927-d330c03de4ea" />
+
+<img width="1366" height="2303" alt="Image" src="https://github.com/user-attachments/assets/08c28c03-cce4-4775-8af3-e7d910978913" />
+
 ---
 
 ## ⚙️ Tools & Features Used
