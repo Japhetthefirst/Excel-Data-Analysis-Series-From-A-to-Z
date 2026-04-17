@@ -1,0 +1,180 @@
+1. category: The category of products sold in the superstore.
+2. city: The city where the order was placed.
+3. country: The country in which the superstore is located.
+4. customer_id: A unique identifier for each customer.
+5. customer_name: The name of the customer who placed the order.
+6. discount: The discount applied to the order.
+7. market: The market or region where the superstore operates.
+8. ji_lu_shu: An unknown or unspecified column.
+9. order_date: The date when the order was placed.
+10. order_id: A unique identifier for each order.
+11. order_priority: The priority level of the order.
+12. product_id: A unique identifier for each product.
+13. product_name: The name of the product.
+14. profit: The profit generated from the order.
+15. quantity: The quantity of products ordered.
+16. region: The region where the order was placed.
+17. row_id: A unique identifier for each row in the dataset.
+18. sales: The total sales amount for the order.
+19. segment: The customer segment (e.g., consumer, corporate, or home office).
+20. ship_date: The date when the order was shipped.
+21. ship_mode: The shipping mode used for the order.
+22. shipping_cost: The cost of shipping for the order.
+23. state: The state or region within the country.
+24. sub_category: The sub-category of products within the main category.
+25. year: The year in which the order was placed.
+26. market2: Another column related to market information.
+27. weeknum: The week number when the order was placed.
+
+This dataset can be used for various data analysis tasks, including understanding sales patterns, customer behavior, and profitability in the context of a global superstore.
+
+________________________________________________
+
+
+UNDERSTANDING SALES PATTERNS
+Understanding sales patterns is essentially about answering four fundamental questions:
+Who buys the most? (customer patterns)
+What sells the most? (product patterns)
+When do we sell the most? (time patterns)
+Where do sales happen? (geographic patterns)
+What mode is most efficient?
+
+________________________________________________________________________________________________
+
+A customer bought a product in a location at a time using a shipping method.
+________________________________________________________________________________________________
+The Final Analytical Structure
+
+1. Fact Table
+- order_id
+- product_id
+- customer_id
+- sales (TOTAL SALES)
+- profit (profit margin)
+- quantity 
+- discount (AVG DISCOUNT)
+- shipping_cost
+
+2. Customer DM
+- customer_id
+- customer_name (Top customers)
+- segment (sales by customer segment) (Consumer vs Corporate vs Home Office revenue)
+
+3. Product DM
+- product_id
+- product_name (top products)
+- category (sales by category by subcategory) (which category is the most profitable) => Profit Margin = Profit / Sales
+- sub_category
+
+4. Time DM
+- order_date
+- ship_date
+- year
+- weeknum
+(To add month, quarter and day of the week) - (monthly sales trends, seasonal spikes, weekly performance)
+
+5. Location DM
+- country (sales by country) (geographic prfitability)
+- state
+- city	
+- region (regional performance)
+- market
+- market2
+
+6. Shipping DM
+- ship_mode (Shipping cost analysis, delivery performance)
+________________________________________________
+
+NOTES:
+Revenue is the same as sales
+Quantity is the same as the units
+
+_____________________________________________
+
+Dashboard:
+
+1. How are we performing? (overview)
+You’d include for KPI:
+- Total Sales (Revenue)
+- Total Profit
+- Total Orders
+- Total Quantity Sold
+- Average Discount
+- Profit Margin
+
+_________________-
+Sales (with PY)
+Profit (with PY)
+Profit Margin
+Orders
+------------------------------
+
+For charts:
+- Sales by Month or Year.(line chart)
+- Sales by Category (bar chart)
+- Profit by Category
+- Sales by Region (Map or Bar Chart)
+- Top 5 Products: A ranked chart
+- Top 5 Customers by sales
+
+_________________-
+
+Sales Trend (Month) 📈
+Sales by Category 📊
+Sales by Region 🌍
+Top 5 Products 🏆
+___________________
+--------------------------------------------------
+2. Who drives revenue? (customers)
+- Sales by Customer Segment
+- Top 10 Customers by Revenue
+- Orders by Segment
+- Average Order Value
+--------------------------------------------------
+3. What drives revenue? (products)
+- Sales by Category
+- Sales by Sub-Category
+- Top 10 Products
+- Profit by Product Category
+------------------------------------------------
+4. When do sales happen? (time)
+- Sales by Year
+- Sales by Month
+- Sales by Week Number
+--------------------------------------------------
+5. Where does revenue come from? (geography)
+-Sales by Region
+- Sales by State
+- Sales by City (optional)
+- Profit by Region
+--------------------------------------------------
+6. How efficiently do we operate? (shipping)
+- Shipping Cost by Ship Mode
+- Average Delivery Time
+- Orders by Ship Mode
+- Profit by Ship Mode
+____________________________________________
+
+SLICERS:
+page 1 (OVERVIEW): NO SLICERS
+page 2: Year, Region
+Page 3: Year, Region
+Page 4: Category, Segment
+Page 5: Year, Category
+
+_________________________________________
+
+##################Finally Star schema
+
+_________________________________________
+
+The practical rule analysts use
+
+If a column:
+1. Measures something → Fact table (sales, profit, quantity)
+2. Describes an entity → Dimension table (customer, product, region)
+3. Describes the transaction itself → Keep it in the Fact table
+
+____________________________________________________________________
+
+Add location_id, shipping_id
